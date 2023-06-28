@@ -1,0 +1,107 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(21, 60, 134);
+        background-image: url("./pic1.jpg");
+        background-size: cover;
+            background-repeat: no-repeat;
+}
+#copq {
+    color: rgb(250, 255, 90);
+}
+
+.navbar {
+    background-color: rgb(26, 2, 114);
+background: none;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link {
+    color: rgb(224, 224, 224) !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.searchbar {
+    position: absolute;
+    top: 16%;
+    right: 10%;
+}
+
+.searchbar input,
+.searchbar button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(232, 232, 232);
+}
+
+#cardbars {
+    margin-top: 1rem;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: none;
+}
+.card-title
+{
+    margin-top: 0.2rem;
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    font-size: large;
+}
+.card3
+{
+    background-image: url("./wind.jpg");
+}
+.card2
+{
+    background-image: url("./cloud.jpeg");
+}
+.card4
+{
+    width: 800px;
+    background-image: url("./com.jpeg");
+}
+.card1{
+    background-image: url("./temp.jpeg");
+}
+.card5
+{
+    background-size: cover;
+        background-repeat: no-repeat;
+}
+#temp,#humid,#wind
+{
+    font-size: 4rem;
+}
+#cityhead
+{
+    text-align: center;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    min-width: 449px;
+    height: auto;
+    background-image: url("./cloud.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+    background-position: center;
+    text-transform: capitalize;
+    overflow: hidden;
+}
